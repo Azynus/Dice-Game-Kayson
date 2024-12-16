@@ -104,6 +104,7 @@ while repeat_game: #pattern 6.1
         print("You sure? It's fun! Typing 'yes' will end the loop")
     else:
         print("Please type yes or no in all lowercase as instructed")
+# Why is "yes" ending the loop instead of replaying? Shouldn't this restart the game instead?
 
 print("Now, let's take your scores so you can see them visually in a chart from the terminal, histogram you can save, and a swarmplot you can save from the csv!")
 with open("dice_results.csv", "r") as file_connections:
